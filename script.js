@@ -41,6 +41,6 @@ students.forEach(student => {
 
 // Function to make button clickable for directions
 function showMessage(){
-    alert("HI this is a console gradebook. please open your console.");
+    alert("Hi this is a console gradebook. please open your console.");
     alert("Quick Tip:For windows press shift + ctrl + J")
   }
