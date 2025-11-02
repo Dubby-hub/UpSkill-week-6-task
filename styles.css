@@ -6,6 +6,7 @@ header{
     color: rgb(1, 26, 26);
     font-size: 16px;
     font-weight: 600;
+    padding: 10px;
 }
 
 .bookCover{
@@ -52,10 +53,16 @@ footer{
 
     
 @media (max-width: 767px) {
+    *{
+        margin: 0;
+    }
     header{
     font-size: 10px;
     font-weight: 200;
    padding-left: 10px;
+   align-items: center;
+   text-align: center;
+  
   }
   main{
     justify-content: center;
@@ -68,6 +75,8 @@ footer{
   background-color: rgb(1, 26, 26);
     height: 500px;
    padding: 10px;
+    margin: 0;
+    margin-left: 0;
 }
  
 
@@ -101,8 +110,7 @@ button{
 
 @media (max-width: 768px) {
   .bookCover {
-   
-    margin-left: 70px;
+ margin-left: 25px;
     height: 650px;
   }
 
@@ -114,6 +122,6 @@ button{
     padding-top: 150px;
 }
 footer{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 }
