@@ -51,29 +51,26 @@ footer{
 }
 
     
-@media (max-width: 600px) {
+@media (max-width: 767px) {
     header{
     font-size: 10px;
     font-weight: 200;
-    margin: 10px;
+   padding-left: 10px;
+  }
+  main{
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
   }
 
   .bookCover{
   background-color: rgb(1, 26, 26);
     height: 500px;
-    width: 80%;
-    margin-left: 10px;
    padding: 10px;
-   justify-content: left;
-    text-align: center;
-    color: aliceblue;
 }
  
-  .tileNote{
-    padding-top: 10px;
-    font-weight: 400;
-    font-size: 16px;
-}
+
 
 .tileNote{
     padding-top: 20px;
@@ -82,7 +79,7 @@ footer{
 }
 
 .title{
-    padding-top: 40px;
+    padding: 20px;
 }
 
 button{
