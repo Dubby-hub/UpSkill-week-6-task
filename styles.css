@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    color: rgb(1, 26, 26);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.bookCover{
+  background-color: rgb(1, 26, 26);
+    height: 500px;
+    width: 80%;
+    margin-left: 90px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+}
+.tileNote{
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.title{
+    padding-top: 150px;
+}
+
+button{
+    color: aliceblue;
+    background-color: rgb(255, 94, 0);
+    border-radius: 8px;
+    border: 0;
+    height: 30px;
+    margin-top: 50px;
+}
+
+.author{
+    padding-top: 120px;
+}
+
+footer{
+    padding-top: 30px;
+    color: aliceblue;
+    background-color: rgb(77, 97, 97);
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+    
+@media (max-width: 600px) {
+    header{
+    font-size: 10px;
+    font-weight: 200;
+    margin: 10px;
+  }
+
+  .bookCover{
+  background-color: rgb(1, 26, 26);
+    height: 500px;
+    width: 80%;
+    margin-left: 10px;
+   padding: 10px;
+   justify-content: left;
+    text-align: center;
+    color: aliceblue;
+}
+ 
+  .tileNote{
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.tileNote{
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.title{
+    padding-top: 40px;
+}
+
+button{
+    color: aliceblue;
+    background-color: rgb(255, 94, 0);
+    border-radius: 8px;
+    border: 0;
+    height: 30px;
+    margin-top: 50px;
+}
+
+.author{
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+}
+
+
+@media (max-width: 768px) {
+  .bookCover {
+   
+    margin-left: 70px;
+    height: 650px;
+  }
+
+  .title{
+    padding-top: 200px;
+}
+
+    .author{
+    padding-top: 150px;
+}
+footer{
+    margin-top: 20px;
+}
+}
